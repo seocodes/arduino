@@ -23,7 +23,7 @@ void loop() {
   but1 = digitalRead(pindown);
   if (but0 == 1){
     if (estado == 0){
-      tempoAnt = millis();       //tenta se lembrar da lógica disso tb
+      tempoAnt = millis();       //tenta se lembrar da lógica disso tb, e pq declarei o tempoAnt aq
     }
     estado = 1;
   }
